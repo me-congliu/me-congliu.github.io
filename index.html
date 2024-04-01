@@ -200,8 +200,22 @@
             <!-- 2024 -->
             <hr class="hr-text" data-content="2023"/>
             <!-- interprior2023 -->
-            <div id="interprior2023" class="div_left">
-                <img src="assets/imgs/paper_2023_interprior.png" class="img-square" width="256">
+            <div id="interprior2023" class="div_left" onmouseout="interprior_stop()" onmouseover="interprior_start()">
+                <div class="one">
+                    <div class="two" id='interprior_image'>
+                      <img src='assets/imgs/interprior_0.png' class="img-square" width="256"></div>
+                    <img src='assets/imgs/interprior_1.png' class="img-square" width="256">
+                </div>
+                <script type="text/javascript">
+                    function interprior_start() {
+                      document.getElementById('interprior_image').style.opacity = "1";
+                    }
+    
+                    function interprior_stop() {
+                      document.getElementById('interprior_image').style.opacity = "0";
+                    }
+                    interprior_stop()
+                </script>
             </div>
             <div id="interprior2023" class="div_right">
                 <p><strong>Reconstructing Interacting Hands with Interaction Prior <br>from Monocular Images</strong>
