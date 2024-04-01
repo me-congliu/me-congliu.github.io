@@ -200,9 +200,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0 5px 0;
 }
 
-.hr-text {
+/* .hr-text {
     line-height: 1em;
-    position: absolute;
+    position: relative;
     outline: 0;
     border: 0;
     color: black;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     &:after {
       content: attr(data-content);
-      position: absolute;
+      position: relative;
       display: inline-block;
       color: black;
       padding: 0 0.5em;
@@ -228,7 +228,17 @@ h1, h2, h3, h4, h5, h6 {
       color: #818078;
       background-color: #fcfcfa;
     }
-  }
+  } */
+
+.hr-text {
+    line-height: 1em;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.5;
+}
 
 
 
