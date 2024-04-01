@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hr-text {
     line-height: 1em;
-    position: relative;
+    position: absolute;
     outline: 0;
     border: 0;
     color: black;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     &:after {
       content: attr(data-content);
-      position: relative;
+      position: absolute;
       display: inline-block;
       color: black;
       padding: 0 0.5em;
