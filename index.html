@@ -198,104 +198,128 @@
                 </p>
             </div>
             <!-- 2024 -->
-            <hr class="hr-text" data-content="2024"/>
-            <!-- ICCV2023 -->
-            <!-- <div style="width:100%;"> -->
-            <tr onmouseout="interprior_stop()" onmouseover="interprior_start()">
-                <!-- <div class="div_left"> -->
-                    <td class="no-border"; style="vertical-align:middle">
-                    <div class="one">
-                        <div class="two" id='interprior_image'>
-                        <img src='assets/imgs/interprior_0.png' width="256"></div>
-                        <img src='assets/imgs/interprior_1.png' width="256">
-                    </div>
-                    <script type="text/javascript">
-                        function interprior_start() {
-                        document.getElementById('interprior_image').style.opacity = "1";
-                        }
-
-                        function interprior_stop() {
-                        document.getElementById('interprior_image').style.opacity = "0";
-                        }
-                        interprior_stop()
-                    </script>
-                    </td>
-                <!-- </div> -->
-                <!-- <div class="div_right"> -->
-                    <!-- <td class="no-border"; style="padding:20px;width:75%;vertical-align:middle"> -->
-                    <td>
-                    <papertitle>Reconstructing Interacting Hands with Interaction Prior from Monocular Images</papertitle>
-                    <br>
-                    <strong>Binghui Zuo</strong>,
-                    Zimeng Zhao, 
-                    Wenqian Sun,
-                    Wei Xie, 
-                    Zhou Xue,
-                    Yangang Wang
-                    <br>
-                    <em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2023
-                    <br>
-                    <a href="https://arxiv.org/abs/2308.14082/">Paper</a>
-                    /
-                    <a href="https://www.yangangwang.com/papers/iccv2023_interprior/BinghuiZuo-ICCV2023_InterPrior.html">Project</a>
-                    /
-                    <a href="https://github.com/binghui-z/InterPrior_pytorch">Code [comming soon]</a>
-                    <p></p>
-                    <p>
-                    The key idea is first to construct a two-hand interaction prior and recast the interaction reconstruction task as the conditional sampling from the prior.
-                    </p>
-                    </td>
-                <!-- </div> -->
-            </tr>
-            <!-- </div> -->
-          
-            <!-- 2023 -->
             <hr class="hr-text" data-content="2023"/>
-            <!-- ICCV2023 -->
-            <!-- <div style="width:100%;"> -->
-            <tr onmouseout="Nonrigid_stop()" onmouseover="Nonrigid_start()" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <!-- <div class="div_left"> -->
-                    <td class="no-border"; style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                        <div class="two" id='nonrigid_image'>
-                        <img src='assets/imgs/Nonrigid_0.png' width="256"></div>
-                        <img src='assets/imgs/Nonrigid_1.png' width="256">
-                    </div>
-                    <script type="text/javascript">
-                        function Nonrigid_start() {
-                        document.getElementById('nonrigid_image').style.opacity = "1";
-                        }
-
-                        function Nonrigid_stop() {
-                        document.getElementById('nonrigid_image').style.opacity = "0";
-                        }
-                        Nonrigid_stop()
-                    </script>
-                    </td>
-                <!-- </div> -->
-                <!-- <div class="div_right"> -->
-                    <td class="no-border"; style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle>Nonrigid Object Contact Estimation With Regional Unwrapping Transformer</papertitle>
-                    <br>
-                    Wei Xie, 
-                    Zimeng Zhao, 
-                    Shiying Li,
-                    <strong>Binghui Zuo</strong>,
-                    Yangang Wang
-                    <br>
-                    <em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2023
-                    <br>
-                    <a href="https://arxiv.org/abs/2308.14074">Paper</a>
-                    /
-                    <a href="https://www.yangangwang.com/papers/iccv2023-nonrigid/XIE-NONRIGID-2023-07-paper.html">Project</a>
-                    <p></p>
-                    <p>
-                    A novel hand-object contact representation called RUPs (Region Unwrapping Profiles) is proposed, which unwrap the roughly estimated hand-object surfaces as multiple high-resolution 2D regional profiles.
-                    </p>
-                    </td>
-                <!-- </div> -->
-            </tr>
-            <!-- </div> -->
+            <!-- interprior2023 -->
+            <div id="interprior2023" class="div_left">
+                <img src="assets/imgs/paper_2023_interprior.png" class="img-square" width="256">
+            </div>
+            <div id="interprior2023" class="div_right">
+                <p><strong>Reconstructing Interacting Hands with Interaction Prior <br>from Monocular Images</strong>
+                    <br>Binghui Zuo, <font color="#FF6347">Zimeng Zhao</font>, Wenqian Sun, Wei Xie, Zhou Xue and Yangang Wang
+                    <br><em>IEEE/CVF International Conference on Computer Vision</em><b> (ICCV)</b>, 2023
+                    <br>[<a href="https://ieeexplore.ieee.org/document/10378019">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- deformer2023 -->
+            <div id="deformer2023" class="div_left">
+                <img src="assets/imgs/paper_2023_deformer.png" class="img-square" width="256">
+            </div>
+            <div id="deformer2023" class="div_right">
+                <p><strong>Nonrigid Object Contact Estimation <br>with Regional Unwrapping Transformer</strong>
+                    <br>Wei Xie, <font color="#FF6347">Zimeng Zhao</font>, Shiying Li, Binghui Zuo and Yangang Wang
+                    <br><em>IEEE/CVF International Conference on Computer Vision</em><b> (ICCV)</b>, 2023
+                    <br>[<a href="https://ieeexplore.ieee.org/document/10377663">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- mkfree2023 -->
+            <div id="mkfree2023" class="div_left">
+                <img src="assets/imgs/paper_2023_mkfree.png" class="img-square" width="256">
+            </div>
+            <div id="mkfree2023" class="div_right">
+                <p><strong>Semi-supervised Hand Appearance Recovery <br>via Structure Disentanglement and Dual Adversarial Discrimination</strong>
+                    <br><font color="#FF6347">Zimeng Zhao</font>, Binghui Zuo, Zhiyu Long and Yangang Wang<br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition</em><b> (CVPR)</b>, 2023
+                    <br>[<a href="https://ieeexplore.ieee.org/document/10205157">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- hmdo2023 -->
+            <!-- https://www.webofscience.com/wos/alldb/full-record/MEDLINE:37022000 -->
+            <div id="hmdo2023" class="div_left">
+                <img src="assets/imgs/paper_2023_hmdo.png" class="img-square" width="256">
+            </div>
+            <div id="hmdo2023" class="div_right">
+                <p><strong>HMDO : Markerless Multi-view Hand Manipulation Capture <br>with Deformable Objects</strong>
+                    <br>Wei Xie, Zhipeng Yu, <font color="#FF6347">Zimeng Zhao</font>, Binghui Zuo and Yangang Wang<br>
+                    <em>Graphical Models</em><b> (GM)</b>, 2023
+                    <br>[<a href="https://www.sciencedirect.com/science/article/pii/S1524070323000085">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- supple2023 -->
+            <div id="supple2023" class="div_left">
+                <img src="assets/imgs/paper_2023_suple.png" class="img-square" width="256">
+            </div>
+            <div id="supple2023" class="div_right">
+                <p><strong>Skeleton Extraction for Articulated Objects <br>with the Spherical Unwrapping Profiles</strong>
+                    <br><font color="#FF6347">Zimeng Zhao</font>, Wei Xie, Binghui Zuo and Yangang Wang<br>
+                    <em>IEEE Transactions on Visualization and Computer Graphics </em><b> (TVCG)</b>, 2023
+                    <br>[<a href="https://ieeexplore.ieee.org/document/10025400">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- 2022 -->
+            <!-- <hr width="50%" align="center"> -->
+            <hr class="hr-text" data-content="2022"/>
+            <!-- stable2022 -->
+            <!-- https://www.webofscience.com/wos/alldb/full-record/WOS:000867754201086 -->
+            <div id="stable" class="div_left">
+                <img src="assets/imgs/paper_2022_stable.png" class="img-square" width="256">
+            </div>
+            <div id="stable" class="div_right">
+                <p><strong>Stability-driven Contact Reconstruction <br>From Monocular Color Images</strong>
+                    <br><font color="#FF6347">Zimeng Zhao</font>, Binghui Zuo, Wei Xie and Yangang Wang<br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition</em><b> (CVPR)</b>, 2022
+                    <br>[<a href="https://ieeexplore.ieee.org/document/9878934">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- 2021 -->
+            <!-- <hr width="50%" align="center"> -->
+            <hr class="hr-text" data-content="2021"/>
+            <!-- supple2021 -->
+            <!-- https://www.webofscience.com/wos/alldb/full-record/WOS:000786496000088 -->
+            <div id="supple" class="div_left">
+                <img src="assets/imgs/paper_2021_suple.png" class="img-square" width="256">
+            </div>
+            <div id="supple" class="div_right">
+                <p><strong>SUPPLE: Extracting Hand Skeleton <br>with Spherical Unwrapping Profiles</strong>
+                    <br><font color="#FF6347">Zimeng Zhao</font>, Ruting Rao and Yangang Wang<br>
+                    <em>International Conference on 3D Vision</em><b> (3DV)</b>, 2021
+                    <br>[<a href="https://ieeexplore.ieee.org/document/9665909">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- travelnet2021 -->
+            <div id="travelnet" class="div_left">
+                <img src="assets/imgs/paper_2021_travel.png" class="img-square" width="256">
+            </div>
+            <div id="travelnet" class="div_right">
+                <p><strong>TravelNet: Self-supervised Physically Plausible Hand Motion Learning <br>From Monocular Color Images</strong>
+                    <br><font color="#FF6347">Zimeng Zhao</font>, Xi Zhao and Yangang Wang<br>
+                    <em>IEEE/CVF International Conference on Computer Vision</em><b> (ICCV)</b>, 2021
+                    <br>[<a href="https://ieeexplore.ieee.org/document/9709952">paper</a>]
+                </p>
+            </div>
+            <br>
+            <!-- 2020 -->
+            <!-- <hr width="50%" align="center"> -->
+            <hr class="hr-text" data-content="2020"/>
+            <!-- ppnet2020 -->
+            <!-- https://www.webofscience.com/wos/alldb/full-record/WOS:000632644800017 -->
+            <div id="ppnet" class="div_left">
+                <img src="assets/imgs/paper_2020_ppnet.png" class="img-square" width="256">
+            </div>
+            <div id="ppnet" class="div_right">
+                <p><strong>PP-Net: Simultaneous Pose and Shape Reconstruction <br>From a Single Depth Map</strong>
+                    <br><font color="#FF6347">Zimeng Zhao</font>, Kanjian Zhang, Yangang Wang<br>
+                        <em>Optoelectronic Imaging and Multimedia Technology VII</em>, 2020 
+                        <br>[<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11550/115500N/PP-Net--simultaneous-pose-and-shape-reconstruction-from-a/10.1117/12.2572825.short?SSO=1">paper</a>]
+                </p>
+            </div>
+            <br>
           
         </tbody>
 
