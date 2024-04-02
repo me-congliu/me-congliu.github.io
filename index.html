@@ -189,31 +189,31 @@
             <!-- 2024 -->
             <hr class="hr-text" data-content="2024"/>
             <!-- eccv2024 -->
-            <div id="eccv2024" style="padding-left: 10px;" onmouseout="interprior_stop()" onmouseover="interprior_start()">
-            <!-- <div id="eccv2024" class="div_left" onmouseout="interprior_stop()" onmouseover="interprior_start()"> -->
-                <div class="one">
-                    <div class="two" id='interprior_image'>
-                        <img src='assets/imgs/iccv23.png' class="img-square" width="256" style="vertical-align:middle"></div>
-                        <img src='assets/imgs/eccv24.png' class="img-square" width="256" style="vertical-align:middle">
+            <div class="pub-row">
+                <div id="eccv2024" class="div_left" onmouseout="interprior_stop()" onmouseover="interprior_start()">
+                    <div class="one">
+                        <div class="two" id='eccv_image'>
+                            <img src='assets/imgs/iccv23.png' class="img-square" width="256" style="vertical-align:middle"></div>
+                            <img src='assets/imgs/eccv24.png' class="img-square" width="256" style="vertical-align:middle">
+                    </div>
+                    <script type="text/javascript">
+                        function interprior_start() {
+                        document.getElementById('eccv_image').style.opacity = "1";
+                        }
+        
+                        function interprior_stop() {
+                        document.getElementById('eccv_image').style.opacity = "0";
+                        }
+                        interprior_stop()
+                    </script>
                 </div>
-                <script type="text/javascript">
-                    function interprior_start() {
-                      document.getElementById('eccv_image').style.opacity = "1";
-                    }
-    
-                    function interprior_stop() {
-                      document.getElementById('eccv_image').style.opacity = "0";
-                    }
-                    interprior_stop()
-                </script>
-            </div>
-            <div id="eccv2024" style="padding-right: 10px;"> 
-            <!-- <div id="eccv2024" class="div_right"> -->
-                <p><strong>TexDC: Text-Driven Disease-Aware 4D Cardiac Cine MRI Images Generation</strong>
-                    <br><font color="#FF6347">Cong Liu</font>, Xiaohan Yuan and Yangang Wang
-                    <br><em>European Conference on Computer Vision</em><b> (ECCV)</b>, 2024
-                    <br>[<font color="gray">paper</font>] [<font color="gray">code</font>] [<font color="gray">video</font>]  <font color="gray">(under review)</font>
-                </p>
+                <div id="eccv2024" class="div_right">
+                    <p><strong>TexDC: Text-Driven Disease-Aware 4D Cardiac <br>Cine MRI Images Generation</strong>
+                        <br><font color="#FF6347">Cong Liu</font>, Xiaohan Yuan and Yangang Wang
+                        <br><em>European Conference on Computer Vision</em><b> (ECCV)</b>, 2024
+                        <br>[<font color="gray">paper</font>] [<font color="gray">code</font>] [<font color="gray">video</font>]  <font color="gray">(under review)</font>
+                    </p>
+                </div>
             </div>
             <br>
             <!-- iccv2023 -->

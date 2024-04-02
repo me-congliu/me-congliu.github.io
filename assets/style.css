@@ -4,6 +4,10 @@
     color: gray; /* 设置超链接文本的颜色为灰色 */
 }
 
+.pub-row {
+    display: flex; 
+    align-items: center;}
+
 .one {
     width: 256px;
     height: 256px;
