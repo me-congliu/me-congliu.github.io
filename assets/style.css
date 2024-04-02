@@ -64,8 +64,9 @@ div.div_left, div.div_right {
     padding-left: 10px;
     padding-right: 10px;
 }
-/* div.div_left, div.div_right {
+div.div_left, div.div_right {
     display: inline-block;
+    align-items: center;
     zoom: 1;
     display*: inline;
     text-align: left;
@@ -73,7 +74,7 @@ div.div_left, div.div_right {
     margin-right: auto;
     vertical-align: middle;
     max-width: 960px;
-} */
+}
 
 span.highlight {
     color: #BB2222;
