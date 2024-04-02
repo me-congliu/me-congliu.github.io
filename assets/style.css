@@ -65,7 +65,7 @@ div.div_left, div.div_right {
     padding-right: 10px;
 }
 div.div_left, div.div_right {
-    /* display: inline-block; */
+    display: inline-block;
     zoom: 1;
     display*: inline;
     text-align: left;
