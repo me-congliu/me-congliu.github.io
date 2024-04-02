@@ -71,7 +71,7 @@ div.div_left, div.div_right {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     max-width: 960px;
 }
 
