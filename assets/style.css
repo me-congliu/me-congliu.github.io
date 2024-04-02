@@ -11,14 +11,14 @@
 .one {
     /* width: 256px;
     height: 256px; */
-    max-height: 220px;
+    max-height: 100px;
     position: relative;
     }
     
 .two {
 /* width: 256px;
 height: 256px; */
-max-height: 220px;
+max-height: 100px;
 position: absolute;
 transition: opacity .2s ease-in-out;
 -moz-transition: opacity .2s ease-in-out;
