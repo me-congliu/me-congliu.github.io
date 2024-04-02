@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
+.review {
+    color: gray; /* 设置超链接文本的颜色为灰色 */
+}
+
 .one {
     width: 256px;
     height: 256px;
